@@ -1,0 +1,83 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "AOA", "Bonjour", "Hola"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Adios"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Adios amigo", "Allah Hafiz"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 20 years old!", "18 years young!", "Age is just a number."],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me umar.", "I'm FAST bot!"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you recommend?", "could i get something to eat"],
+         "responses": ["We sell fresh cakes for Rs.2000!", "Steaks are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "weather",
+         "patterns": ["How is the weather?", "is it hot outside", "Feeling warm or cold?", "is it raining"],
+         "responses": ["The dazzling rays of the tropical sun are burning everything", "Its freezing outside", "It is raining cats and dogs outside", "Its very warm today. Hopefully it will rain soon."],
+         "context_set": ""
+        },
+        {"tag": "play",
+         "patterns": ["do you like to play", "are you a good player", "will you play with me", "lets play games"],
+         "responses": ["Yes sir, I was born a player.", "Playing is my hobby", "Lets play video games"],
+         "context_set": ""
+        },
+        {"tag": "football",
+         "patterns": ["Do you watch or play football", "you like football", "is football a good sport", "favourite footballer?"],
+         "responses": ["Football is my life", "I love football. Cristiano Ronaldo CR7 is my favourite footballer.", "Football is the best sport, end of debate."],
+         "context_set": ""
+        },
+        {"tag": "joke",
+         "patterns": ["tell me a joke", "i will like to hear a joke", "you got any good joke", "lets hear a joke", "Humor me", "i am very bored"],
+         "responses": ["Parallel lines have so much in common. Its a shame they will never meet.", "You are not completely useless, you can always serve as a bad example.", "Did you hear about the claustrophobic astronaut? He just needed a little space.", "Why dont scientists trust atoms?\nBecause they make up everything."],
+         "context_set": ""
+        },
+        {"tag": "sad",
+         "patterns": ["i am very sad", "i am extremely upset and disappointed", "this makes me angry"],
+         "responses": ["Cheer up buddy.", "Life has ups and downs, dont worry.", "Optimism makes a life happier and meaningful."],
+         "context_set": ""
+        },
+        {"tag": "eat",
+         "patterns": ["do you like to eat", "what do you eat", "what is your favorite dish to ead", "lets eat"],
+         "responses": ["I love to eat anything made by my mom.", "My favorite dish is mutton karahi. Yum!!", "Why did you mention eating?\nIts making me hungry."],
+         "context_set": ""
+        },
+        {"tag": "happy",
+         "patterns": ["i am very happy", "i am extremely cheerful", "this makes me happy"],
+         "responses": ["Awesome, you deserve it.", "Happiness is the real health and wealth", "Folks are usually about as happy as they make their minds up to be."],
+         "context_set": ""
+        },
+        {"tag": "live",
+         "patterns": ["where do you live", "is living by the sea, a good idea", "i want to live in "],
+         "responses": ["Hmm! I live somewhere in Pakistan", "I like to live with my family."],
+         "context_set": ""
+        },
+        {"tag": "java",
+         "patterns": ["do you like to code in java", "is java a good language", "should i learn java "],
+         "responses": ["Java is easy and cool.", "I like Java, its slower than C++ but easier."],
+         "context_set": ""
+        },
+        {"tag": "movie",
+         "patterns": ["do you like movies", "do you watch movies", "i like movies"],
+         "responses": ["I love action packed thrillers.", "I like to watch movies during vacations."],
+         "context_set": ""
+        }
+]
+}
