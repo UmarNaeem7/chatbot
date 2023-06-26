@@ -85,6 +85,6 @@ to numerical form
 • pass the input data in ffnn  
 • this ffnn model will contain 2 hidden layers, each with 8 neurons  
 
-<image src="resources/nn.png">
+<image src="/resources/nn.png">
 
 
