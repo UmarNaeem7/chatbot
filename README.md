@@ -84,3 +84,7 @@ to numerical form
 • we will use Feed Forward Neural Network to train the bot  
 • pass the input data in ffnn  
 • this ffnn model will contain 2 hidden layers, each with 8 neurons  
+
+<image src="resources/nn.png">
+
+
