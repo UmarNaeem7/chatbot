@@ -110,15 +110,21 @@ to allow user to give input in A GUI
 <image src="/resources/ss1.png">
 
 
+### Start screen
+
+<image src="/resources/ss2.png">
+
+
 ### Chat window
 Pressing start button, takes us to the main chat window.
 
-<image src="/resources/ss2.png">
+<image src="/resources/ss3.png">
+
 
 ### Chat session with bot
 A random chat session with the bot is demonstrated.
 
-<image src="/resources/ss3.png">
+<image src="/resources/ss4.png">
 
 # Conclusion
 It is concluded that though the bot is simple, but it is very efficient and reliable. It meets all the 
