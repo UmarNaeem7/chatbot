@@ -67,7 +67,7 @@ output = numpy.array(output)
 #-------------------machine learning-----------------------------
 
 #reset configurations
-tensorflow.reset_default_graph()
+# tensorflow.reset_default_graph()
 
 #develop feed forward neural network (ffnn) with 2 hidden layers
 
