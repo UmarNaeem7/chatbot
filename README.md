@@ -72,15 +72,15 @@ customizability is our requirement so that we can use it for future endeavors.
 
 # Programming Approach
 The program will be explained in a series of in-order steps:
-• open json file containing the training data
-• extract data from this file in a data dictionary
-• extract tags, patterns and their responses in separate lists from dictionary
-• stem the words in the list which contains patterns so that we can generalize them and this will 
-enable to understand words similar to the ones that are stored
-• to pass input data in neural networks, we need to convert the data that is in the form of strings 
-to numerical form
-• 1 in this numerical input for a particular words indicates its presence and 0 its absence
-• convert the numerical input data to numpy arrays
-• we will use Feed Forward Neural Network to train the bot
-• pass the input data in ffnn
-• this ffnn model will contain 2 hidden layers, each with 8 neurons
+• open json file containing the training data  
+• extract data from this file in a data dictionary  
+• extract tags, patterns and their responses in separate lists from dictionary  
+• stem the words in the list which contains patterns so that we can generalize them and this will   
+enable to understand words similar to the ones that are stored  
+• to pass input data in neural networks, we need to convert the data that is in the form of strings   
+to numerical form  
+• 1 in this numerical input for a particular words indicates its presence and 0 its absence  
+• convert the numerical input data to numpy arrays  
+• we will use Feed Forward Neural Network to train the bot  
+• pass the input data in ffnn  
+• this ffnn model will contain 2 hidden layers, each with 8 neurons  
