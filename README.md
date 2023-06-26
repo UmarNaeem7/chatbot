@@ -1,5 +1,3 @@
-# chatbot
-
 # Problem Statement
 Build an AI (ML) based chat bot that will intelligently reply to the user’s text string. The bot should be 
 extremely customizable so that it can be used for various purposes in future easily. For example, training 
@@ -15,49 +13,49 @@ Python 3.8 is used to implement this project.
 
 # Modules used
 
-# Natural Language Toolkit (NLTK):
+### Natural Language Toolkit (NLTK):
 The Natural Language Toolkit, or more commonly NLTK, is a suite of libraries and programs for symbolic 
 and statistical natural language processing for English written in the Python programming language.
 In this project, it is used for word stemming and some other string operations.
 
-# NumPy:
+### NumPy:
 NumPy is a library for the Python programming language, adding support for large, multi-dimensional 
 arrays and matrices, along with a large collection of high-level mathematical functions to operate on 
 these arrays.
 In this project, to pass input data into neural network, we first need to convert it to numpy arrays.
 
-# TFlearn:
+### TFlearn:
 TFlearn is a modular and transparent deep learning library built on top of TensorFlow. It was designed to 
 provide a higher-level API to TensorFlow in order to facilitate and speed-up experimentations, while 
 remaining fully transparent and compatible with it.
 In this project, it is used to create neural network and pass input data into it.
 
-# TensorFlow:
+### TensorFlow:
 TensorFlow is a free and open-source software library for dataflow and differentiable programming 
 across a range of tasks. It is a symbolic math library, and is also used for machine learning applications 
 such as neural networks.
 In this project, it is used to create neural network and pass input data into it.
 
-# Random:
+### Random:
 Generates random numbers.
 In this project, it is used to pick a randomized response once the correct tag is picked as for each tag we 
 have a couple of responses.
 
-# JSON:
+### JSON:
 Read data from .json files and store it in data dictionary and vice versa.
 in this project, it is used to open training data from a json file into a python data dictionary.
 
-# Tkinter:
+### Tkinter:
 Tkinter is a Python binding to the Tk GUI toolkit. It is the standard Python interface to the Tk GUI toolkit, 
 and is Python's de facto standard GUI. Tkinter is included with standard Linux, Microsoft Windows and 
 Mac OS X installs of Python. The name Tkinter comes from Tk interface.
 in this project, it is used to create the GUI of the application.
 
-# Image, ImageTk:
+### Image, ImageTk:
 Open images and add them to Tkinter’s widgets.
 In this project, it is used to add image to a window and icons to the GUI application.
 
-# Winsound:
+### Winsound:
 The winsound module provides access to the basic sound-playing machinery provided by Windows 
 platforms. It includes functions and several constants. 
 In this project, it is used to play a notification alert sound when the bot replies.
@@ -109,3 +107,19 @@ to allow user to give input in A GUI
 
 ### Training process as last step
 
+<image src="/resources/ss1.png">
+
+
+### Chat window
+Pressing start button, takes us to the main chat window.
+
+<image src="/resources/ss2.png">
+
+### Chat session with bot
+A random chat session with the bot is demonstrated.
+
+<image src="/resources/ss3.png">
+
+# Conclusion
+It is concluded that though the bot is simple, but it is very efficient and reliable. It meets all the 
+functional requirements and expectations of the developers.
