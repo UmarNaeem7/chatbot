@@ -88,3 +88,24 @@ to numerical form
 <image src="/resources/nn.png">
 
 
+• represent output as probabilities, each tag will have a certain probability
+• convert numerical output back to string data
+• for the user’s input string, find the tag with the highest probability
+• as no dataset is perfect and particularly in our case, since the dataset is self-made, so there is a 
+good chance that the bot has insufficient training data and doesn’t possess a perfect response
+• hence, to avoid a random response for such an input string, it is better to acknowledge the bots’ 
+limitation
+• so we check whether max probability tag has higher probability than all other tags by a certain 
+threshold
+• this threshold value is experimental and found accurate enough at 0.75 with 1800 epochs of the 
+current dataset, if the dataset is grown then we can increment no. of epochs to gain more 
+accuracy with the same threshold value
+• if the threshold conditions are met, then pick a random response of the tag with max probability 
+(there are multiple responses for each tag)
+• the remaining work is to show the chat transcript between user and bot, and the functionality 
+to allow user to give input in A GUI
+
+# Chatbot in action
+
+### Training process as last step
+
