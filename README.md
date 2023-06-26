@@ -1,3 +1,6 @@
+# chatbot
+Uses AI to interact with users and provide automated responses, simulating conversation.
+
 # Problem Statement
 Build an AI (ML) based chat bot that will intelligently reply to the user’s text string. The bot should be 
 extremely customizable so that it can be used for various purposes in future easily. For example, training 
