@@ -105,7 +105,7 @@ def bag_of_words(s, words):
 
 #-----------------intro window--------------#
 intro = Tk()
-intro.title('AI Chatbot by Umar(17L-4065),Abdullah(4038),Hafiz Irshad(4273)')
+intro.title('AI Chatbot by Umar')
 intro.resizable(0,0)
 intro.iconbitmap('resources/icon.ico')
 
