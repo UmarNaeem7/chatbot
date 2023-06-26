@@ -137,7 +137,7 @@ intro.mainloop()
 
 #--------------------Chat window-----------------------#
 root = Tk()
-root.title('AI Chatbot by Umar(17L-4065),Abdullah(4038),Hafiz Irshad(4273)')
+root.title('AI Chatbot by Umar')
 root.resizable(0,0)
 root.iconbitmap('resources/icon.ico')
 
